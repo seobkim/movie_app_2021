@@ -41,7 +41,6 @@ function Food(props){
   return <h1>I Like {props.fav}</h1>
 }
  */
-
 function App() {
   return (
     <div>
