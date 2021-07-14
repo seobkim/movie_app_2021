@@ -4,7 +4,6 @@ function Food({name,picture}){
       <img src={picture} alt={name}/>
     </div>)
     ;
-
 }
 const foodILike=[
   {
