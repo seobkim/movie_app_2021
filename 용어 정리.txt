@@ -6,4 +6,9 @@ npx는 npm 레지스트리의 패키지 사용 경험을 파악하기 위한 도
 
 JSX - HTML과 자바스크립를 조합한 문법
 
-map()함수
+map()
+
+git clone 하여 레포지토리 복제 사용시
+npm install 하여 package파일 셋팅 설치 후 npm start 가능
+
+ReactDom.render() : 예약어임
