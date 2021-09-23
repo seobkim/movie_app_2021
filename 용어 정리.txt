@@ -12,3 +12,7 @@ git clone 하여 레포지토리 복제 사용시
 npm install 하여 package파일 셋팅 설치 후 npm start 가능
 
 ReactDom.render() : 예약어임
+
+
+생명주기
+Constructor() 함수 -> Render() -> componentDidMount() 순
