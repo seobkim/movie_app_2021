@@ -6,6 +6,10 @@ npx는 npm 레지스트리의 패키지 사용 경험을 파악하기 위한 도
 
 JSX - HTML과 자바스크립를 조합한 문법
 
+props 와 state
+부모 컴포넌트가 자식 컴포넌트에게 주는 값입니다. 자식 컴포넌트에서는 props 를 받아오기만하고, 받아온 props 를 직접 수정 할 수 는 없습니다.
+반면에 state 는 컴포넌트 내부에서 선언하며 내부에서 값을 변경 할 수 있습니다.
+
 map()
 
 git clone 하여 레포지토리 복제 사용시
@@ -14,5 +18,12 @@ npm install 하여 package파일 셋팅 설치 후 npm start 가능
 ReactDom.render() : 예약어임
 
 
-생명주기
-Constructor() 함수 -> Render() -> componentDidMount() 순
+mount 생명주기 함수
+Constructor() 함수 -> render() -> componentDidMount() 순
+
+update 생명주기 함수
+setState() 함수 -> render()함수 -> componentDidUpdate() 순
+
+컴포넌트 죽을때 unmount 라고 함
+
+unmount 분류 생명주기 함수 : componentWillUnmount()
