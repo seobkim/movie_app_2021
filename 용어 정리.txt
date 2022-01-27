@@ -27,3 +27,5 @@ setState() 함수 -> render()함수 -> componentDidUpdate() 순
 컴포넌트 죽을때 unmount 라고 함
 
 unmount 분류 생명주기 함수 : componentWillUnmount()
+
+ansyc , await---------------------
