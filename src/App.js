@@ -15,7 +15,12 @@ class App extends React.Component{
     HTTP 요청 취소 및 요청과 응답을 JSON 형태로 자동으로 변경해 줍니다.
     브라우저 호환성이 뛰어납니다.
     */
-  getMovies = async () =>{
+
+  // getMovies = async () =>{
+  //   const movies = await axios.get('https://yts-proxy.now.sh/list_movies.json');
+  // };
+
+  async getMovies(){
     const movies = await axios.get('https://yts-proxy.now.sh/list_movies.json');
   };
 
