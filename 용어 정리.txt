@@ -44,3 +44,13 @@ ansyc 함수
 
 await 예약어는 async 함수 내에서만 동작한다.
 - 자바 스크립트는 await 예약어를 만나면 프라미스가 처리(Settled) 될 때까지 기다린다. 결과는 그 이후 반환.
+
+
+React(리액트)는 SPA(Single Page Applicatoin)입니다. 말그대로 페이지(Page)가 하나(Single)인 어플리케이션(Application)입니다. 
+이렇게 페이지가 하나이기 때문에 페이지 이동이 불가능합니다. 
+하지만 이렇게 페이지가 하나인 경우에도 일반 웹 사이트처럼 URL에 따른 페이지 이동을 할 수 있게 해주는 기능이 React Router입니다.
+
+react-router - 웹&앱
+react-router-dom - 웹
+react-router-native -앱
+세 가지 패키지는 각각 용도가 다릅니다. 우리는 웹에서 사용할 것이므로 react-router-dom을 사용합니다.
