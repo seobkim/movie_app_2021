@@ -1,7 +1,7 @@
-import Reactr from 'react';
+import React from 'react';
 
 function About(){
-    return <span>About this page: I built it because I love movies.</span>
+    return <span>About this page: I built it because I love movies.</span>;
 }
 
-export default About
+export default About;
