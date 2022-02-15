@@ -1,10 +1,10 @@
 import React from 'react';
 //import Home from './routes/Home';
 import "./App.css";
-import {HashRouter, Routes, Route} from 'react-router-dom';
+import {HashRouter, Route} from 'react-router-dom';
 import About from './routes/About';
 import Home from './routes/Home';
-
+import Navigation from './components/Navigation';
   function App() {
    return (
      //--------------------------------------------------------------------------------------------------
@@ -14,16 +14,9 @@ import Home from './routes/Home';
      // react router dom v6 버전 확인하여 사용
      //--------------------------------------------------------------------------------------------------
      <HashRouter>
-       <Routes>
-         <Route path = "/" element = {<Home></Home>}>
-           
-         </Route>
-         <Route path = "/home/introduction">
-           
-         </Route>
-         <Route path = "/about" element = {<About><h1>About</h1></About>}>
-         </Route>
-       </Routes>
+         <Navigation></Navigation>
+         <Route path = "/" exact={true} component={Home}/>
+         <Route path = "/about" component={About}/>
      </HashRouter>
    );
   }
